@@ -1,0 +1,460 @@
+body {
+    color: #a5a5a5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header__logotype {
+    position: fixed;
+    top: 5px;
+    font-size: larger;
+}
+
+.my-photo {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    height: 300px;
+}
+
+.discription__my-name {
+    font-size: 300%;
+    margin-top: 15%;
+    color: rgb(63, 70, 133);
+}
+
+.discription__my-text {
+    font-size: 130%;
+    width: 500px;
+}
+
+.BUTTONS {
+    position: absolute;
+    top: 60%;
+    left: 7%;
+}
+
+.gradient-button-1 {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #ef9e9e 0%, #f03030 51%, #ef9e9e 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+.gradient-button-1:hover {
+    background-position: right center;
+}
+
+.gradient-button-2 {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9ebaef 0%, #308af0 51%, #9ec8ef 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+.gradient-button-2:hover {
+    background-position: right center;
+}
+
+.gradient-button-3 {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #535caa 0%, #010a3f 51%, #384ebd 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+.gradient-button-3:hover {
+    background-position: right center;
+}
+
+.arrow-down {
+    position: absolute;
+    margin: 50px;
+    top: 30%;
+    right: 40%;
+}
+
+.arrow-down span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 8px solid #6048ff;
+    border-right: 8px solid #6048ff;
+    transform: rotate(45deg);
+    margin: -20px;
+    animation: arrow-down 2s infinite;
+}
+
+.arrow-down span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrow-down span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes arrow-down {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+.contact {
+    position: fixed;
+    z-index: 100;
+    right: 5%;
+    top: 85%;
+    text-decoration: none;
+    display: inline-block;
+    width: 20px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #6048ff;
+    background: white;
+    box-shadow: 0 8px 15px #beb5fd;
+    transition: .3s;
+    font-size: 20px;
+}
+
+.contact:hover {
+    background: #6048ff;
+    box-shadow: 0 15px 20px #c7c7c7;
+    color: white;
+    transform: translateY(-7px);
+}
+
+.about-me__undertitle {
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    height: 500px;
+    width: 400px;
+    font-size: 300%;
+    color: #6048ff;
+}
+
+.about-me__text {
+    position: absolute;
+    top: 120%;
+    right: 10%;
+    height: 500px;
+    width: 400px;
+    font-size: 130%;
+}
+
+.about-me_photo {
+    margin-top: 55%;
+    height: 600px;
+}
+
+.rewiews {
+    margin-top: 50%;
+}
+
+.rewiews__title {
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    font-size: 300%;
+    color: #000000;
+}
+
+.rewiews__list {
+    position: absolute;
+    left: 40%;
+}
+
+.fff {
+    padding: 15px;
+    margin: 10px;
+    text-align: right;
+    border-radius: 15px;
+    background: #eeeded;
+}
+
+.stars {
+    color: rgb(255, 217, 0);
+}
+
+.james-1 {
+    color: rgb(200, 104, 255);
+}
+
+.james-2 {
+    color: #8c45fd;
+}
+
+.james-3 {
+    color: #4b2ffd;
+}
+
+#feedback>div {
+    width: 170px;
+    height: 210px;
+    display: inline-block;
+}
+
+input {
+    border-radius: 5px;
+    border-color: #6048ff;
+}
+
+.sector {
+    position: absolute;
+    margin: -125px 0 0 -125px;
+    margin-top: 700px;
+    width: 1280px;
+    height: 880px;
+    background: linear-gradient(to top, rgb(63, 70, 133), #6048ff);
+}
+
+.form {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+}
+
+.contact__word {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 500%;
+    color: #fff;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 200ms;
+}
+
+a:hover,
+a:focus {
+    color: black;
+}
+
+article {
+    height: 800px;
+    margin-bottom: 50px;
+}
+
+.margin {
+    margin-bottom: 100vh;
+}
+
+.contact__menu {
+    display: flex;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    padding: 30px;
+}
+
+a {
+    display: inline-flex;
+    padding: 20px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: white;
+}
+
+.contact-form {
+    max-width: 350px;
+    margin: 50px auto 0;
+    padding: 20px;
+    background: #ffffff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contact-form h3 {
+    padding: 7px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1;
+    color: black;
+    background: #ffffff;
+}
+
+.form-2 {
+    position: absolute;
+    top: 430%;
+    left: 30%;
+    max-height: 100px;
+    margin: 140px;
+}
+
+.form-title-2 {
+    position: absolute;
+    top: -200%;
+    left: 20%;
+    font-size: 140%;
+    text-align: center;
+    color: #6048ff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.form-group input,
+.form-group label,
+.form-group textarea {
+    display: block;
+    width: 100%;
+    padding: 0;
+    line-height: 30px;
+    background: #ffffff;
+    border-width: 15;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 12px;
+}
+
+.form-group input {
+    padding: 0;
+    line-height: 30px;
+    background: #ffffff;
+    border-width: 15;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    color: black;
+    font-size: 12px;
+}
+
+.submit-block {
+    padding: 10px 20px 20px;
+    background: repeating-linear-gradient(-30deg, #ffffff, #ffffff 8px, #ffffff 10px, #ffffff 14px);
+    text-align: center;
+    cursor: pointer;
+}
+
+.submit-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #ffffff;
+}
+
+.submit-button input {
+    padding: 0;
+    background: #ffffff;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.subscribe_form-email {
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.subscribe-button {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #6048ff 51%, #f03070 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+.subscribe-button:hover {
+    background-position: right center;
+}
+
+footer {
+    position: absolute;
+    top: 3800px;
+}
+
+.social-networks {
+    display: inline-block;
+}
+
+.social-network {
+    padding: 15px;
+    margin: 10px;
+    text-align: right;
+    width: 30px;
+    height: 30px;
+}
+
+#networks>div {
+    width: 170px;
+    height: 210px;
+    display: inline-block;
+}
+
+.vk-id {
+    position: absolute;
+    top: 125px;
+    font-size: 100%;
+    left: 150px;
+}
+
+.tw-id {
+    position: absolute;
+    top: 55px;
+    font-size: 100%;
+    left: 150px;
+}
+
+.in-id {
+    position: absolute;
+    top: 195px;
+    font-size: 100%;
+    left: 150px;
+}
